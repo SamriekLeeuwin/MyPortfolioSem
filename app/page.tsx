@@ -8,7 +8,6 @@ import { FaJava } from 'react-icons/fa';
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
-      {/* CardNav Navigatie - Dark Mode */}
       <CardNav
         logo="SAMRIEK LEEUWIN"
         items={[
@@ -50,7 +49,6 @@ export default function Home() {
         className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm"
       />
 
-      {/* Particles over hele pagina */}
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         <Particles
           particleColors={['#ffffff', '#3B82F6', '#60A5FA', '#93C5FD', '#BFDBFE']}
@@ -64,10 +62,7 @@ export default function Home() {
         />
       </div>
 
-      {/* Header */}
       <header id="home" className="relative h-screen flex items-center justify-center overflow-hidden z-10">
-        
-        {/* Content overlay */}
         <div className="relative z-10 text-center px-8">
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold mb-4 tracking-tight text-white">
@@ -107,7 +102,6 @@ export default function Home() {
         </div>
       </header>
 
-      {/* About section */}
       <section id="about" className="py-20 px-8 max-w-6xl mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -137,8 +131,7 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Technology Logos */}
-          <div className="mt-8">
+            <div className="mt-8">
             <h3 className="text-xl font-bold mb-4 text-white">TECHNOLOGIES I WORK WITH</h3>
             <div className="h-16 bg-black/50 rounded-lg p-4 border border-gray-800">
               <LogoLoop
@@ -187,13 +180,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Experience section */}
       <section id="experience" className="py-20 px-8 bg-transparent relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center text-white">PROFESSIONAL EXPERIENCE</h2>
           
-          {/* BridgeFund Experience */}
-            <div className="bg-black/60 border border-gray-800 p-8 rounded-lg mb-8">
+          <div className="bg-black/60 border border-gray-800 p-8 rounded-lg mb-8">
             <div className="mb-6">
               <h3 className="text-2xl font-bold text-white mb-2">Software Engineering Intern</h3>
               <p className="text-blue-400 text-lg">BridgeFund</p>
@@ -237,7 +228,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Skills section */}
       <section id="skills" className="py-20 px-8 relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center text-white">
@@ -246,7 +236,6 @@ export default function Home() {
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {/* Frontend Development - Larger card, accent color */}
             <div className="lg:col-span-2 bg-black/60 border-l-4 border-cyan-400/60 p-7 hover:border-cyan-400/90 hover:bg-black/70 transition-all duration-300 transform hover:-translate-y-1">
               <div className="flex items-center mb-4">
                 <h3 className="text-xl font-bold text-white">Frontend Development</h3>
@@ -264,7 +253,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Backend Development - Smaller, rotated slightly */}
             <div className="bg-black/40 border border-gray-700/50 p-5 hover:border-cyan-400/40 hover:bg-black/60 transition-all duration-300 transform hover:rotate-1" style={{ transform: 'rotate(-0.5deg)' }}>
               <div className="mb-3">
                 <h3 className="text-lg font-bold text-white">Backend</h3>
@@ -280,7 +268,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Database Management */}
             <div className="bg-black/50 border-t-2 border-cyan-500/40 p-6 hover:bg-black/70 hover:border-cyan-500/70 transition-all duration-300">
               <div className="mb-4">
                 <h3 className="text-lg font-bold text-white">Databases</h3>
@@ -295,7 +282,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Version Control - Accent highlight */}
             <div className="bg-black/50 border border-gray-800 p-5 hover:border-cyan-400/50 hover:shadow-lg hover:shadow-cyan-400/10 transition-all duration-300">
               <div className="mb-3">
                 <h3 className="text-lg font-bold text-white">Version Control</h3>
@@ -310,7 +296,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Development Tools - Smaller card */}
             <div className="bg-black/40 border border-gray-700/40 p-5 hover:bg-black/60 transition-all duration-200">
               <div className="mb-3">
                 <h3 className="text-base font-bold text-gray-300">Tools</h3>
@@ -324,7 +309,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Cloud & DevOps - Larger, accent */}
             <div className="lg:col-span-2 bg-gradient-to-br from-black/60 to-black/40 border-l-4 border-cyan-400/50 p-7 hover:border-cyan-400/80 hover:from-black/70 hover:to-black/50 transition-all duration-300">
               <div className="mb-4">
                 <h3 className="text-xl font-bold text-white">Cloud & DevOps</h3>
@@ -340,7 +324,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* System Design - Rotated opposite */}
             <div className="bg-black/50 border border-gray-800 p-6 hover:border-cyan-400/40 transition-all duration-300 transform hover:-rotate-1" style={{ transform: 'rotate(0.5deg)' }}>
               <div className="mb-4">
                 <h3 className="text-lg font-bold text-white">System Design</h3>
@@ -355,7 +338,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Agile & Methodology - Smaller */}
             <div className="bg-black/40 border border-gray-700/40 p-5 hover:bg-black/60 transition-all duration-200">
               <div className="mb-3">
                 <h3 className="text-base font-bold text-gray-300">Agile</h3>
@@ -370,7 +352,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Experience Level */}
           <div className="bg-black/50 border border-gray-800 p-8 rounded-lg">
             <h3 className="text-2xl font-bold mb-6 text-center text-white">EXPERIENCE LEVEL</h3>
             <div className="grid md:grid-cols-2 gap-8">
@@ -479,7 +460,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects section */}
       <section id="projects" className="py-20 px-8 relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-12 text-center text-white">
@@ -487,7 +467,6 @@ export default function Home() {
             <span className="ml-3 text-cyan-400/60 text-3xl">→</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* BudgetLife - TypeScript - Larger featured */}
             <div className="lg:col-span-2 bg-gradient-to-br from-black/60 to-black/40 border-l-4 border-cyan-400/60 p-7 hover:border-cyan-400/90 hover:from-black/70 hover:to-black/50 transition-all duration-300 transform hover:-translate-y-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-white">BudgetLife</h3>
@@ -512,7 +491,6 @@ export default function Home() {
               </a>
             </div>
 
-            {/* StuddyBuddy - Java - Smaller */}
             <div className="bg-black/40 border border-gray-700/50 p-5 hover:border-cyan-400/40 hover:bg-black/60 transition-all duration-300 transform hover:rotate-1" style={{ transform: 'rotate(-0.3deg)' }}>
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-lg font-bold text-white">StuddyBuddy</h3>
@@ -536,7 +514,6 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Budgett-app - HTML - Rotated opposite */}
             <div className="bg-black/50 border-t-2 border-cyan-500/30 p-6 hover:border-cyan-500/60 hover:bg-black/70 transition-all duration-300" style={{ transform: 'rotate(0.3deg)' }}>
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-bold text-white">Budgett-app</h3>
@@ -560,7 +537,6 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Portfolio - HTML - Smaller */}
             <div className="bg-black/40 border border-gray-700/40 p-5 hover:bg-black/60 transition-all duration-200">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-base font-bold text-gray-300">Portfolio</h3>
@@ -583,7 +559,6 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Skills GitHub Pages - Smaller */}
             <div className="bg-black/40 border border-gray-700/40 p-5 hover:bg-black/60 transition-all duration-200 transform" style={{ transform: 'rotate(-0.2deg)' }}>
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-base font-bold text-gray-300">Skills Pages</h3>
@@ -606,7 +581,6 @@ export default function Home() {
           </a>
         </div>
 
-            {/* Test Terminals */}
             <div className="bg-black/50 border-t-2 border-cyan-500/30 p-6 hover:border-cyan-500/60 hover:bg-black/70 transition-all duration-300" style={{ transform: 'rotate(0.2deg)' }}>
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-lg font-bold text-white">Test Terminals</h3>
@@ -631,7 +605,6 @@ export default function Home() {
             </div>
           </div>
           
-          {/* GitHub Link */}
           <div className="text-center mt-12">
             <p className="text-gray-400 mb-4">Want to see more of my work?</p>
             <a 
@@ -647,7 +620,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact section */}
       <section id="contact" className="py-20 px-8 bg-transparent relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8 text-white">LET&apos;S WORK TOGETHER</h2>
@@ -686,7 +658,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="py-8 px-8 bg-transparent border-t border-gray-800 relative z-10">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">
